@@ -1,0 +1,20 @@
+.container {
+  margin-top: 5rem;
+}
+
+.footerCol {
+  padding: 10px;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 2rem !important;
+  opacity: 0.7;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}

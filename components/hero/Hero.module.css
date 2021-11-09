@@ -1,0 +1,19 @@
+.hero_container {
+  background-image: linear-gradient(
+      rgba(24, 24, 24, 0.5),
+      rgba(24, 24, 24, 0.5)
+    ),
+    url("/ABSTRACT_BACKGROUND_01\ -\ Copy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  margin: 15px 0;
+}

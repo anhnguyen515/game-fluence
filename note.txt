@@ -1,0 +1,4 @@
+favorite
+login / signup
+comment
+rating

@@ -3,12 +3,11 @@ export default function Hero() {
   return (
     <div className={styles.hero_container}>
       <h1>
-        <span style={{ color: "crimson" }}>Find & Track</span> your favorite
-        games!
+        <span style={{ color: "crimson" }}>Theo dõi</span> và{" "}
+        <span style={{ color: "crimson" }}>Tìm kiếm</span> thông tin về các tựa
+        game yêu thích của bạn tại đây!
       </h1>
-      <h4 className={styles.banner}>
-        All the information you need for video games is available here!
-      </h4>
+      {/* <h4 className={styles.banner}>Thông tin bạn cần về tựa game yêu thích</h4> */}
     </div>
   );
 }

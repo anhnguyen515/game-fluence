@@ -1,0 +1,16 @@
+.select {
+  background-color: #181818;
+  border: none;
+  color: #ccc;
+  max-width: 150px;
+  padding: 0;
+}
+
+.filter_container {
+  display: flex;
+}
+
+.label {
+  padding-top: 7px;
+  padding-right: 15px;
+}

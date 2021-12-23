@@ -1,0 +1,32 @@
+.heading {
+  border-bottom: 1px solid rgba(170, 170, 170, 0.2);
+  font-weight: bold;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.heading:first-child {
+  border: none;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.game_image {
+  position: sticky;
+  top: 70px;
+  width: 100%;
+}
+
+.game_description {
+  white-space: pre-line;
+}
+
+.game_information {
+  padding: 10px;
+}
+
+.low_opacity {
+  opacity: 0.5;
+  font-weight: normal;
+}

@@ -1,9 +1,21 @@
 .container {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
-.footerCol {
+.col_container {
+  margin-right: 20px;
   padding: 10px;
+}
+
+.col_container h3 {
+  border-bottom: 2px solid crimson;
+  transform: skewX(-11deg);
+}
+
+.col_container h3 span {
+  background-color: crimson;
+  color: #181818;
+  padding: 0 10px;
 }
 
 .copyright {
@@ -17,4 +29,44 @@
 .image {
   display: flex;
   justify-content: center;
+}
+
+.social_media {
+  display: flex;
+  margin-top: 20px;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.social_media > * {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags > * {
+  background-color: #2f3235;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 2px 7px;
+  transition: 0.2s;
+}
+
+.tags > *:hover {
+  color: #181818;
+  background-color: aliceblue;
+}
+
+.contact {
+  margin-bottom: 5px;
+}
+
+.icon {
+  font-size: 1.3rem;
+  margin-right: 10px;
 }
